@@ -195,4 +195,8 @@ QUnit.config.testTimeout = 30000;
 		makeIframe("production/prod-inst.html");
 	});
 
+	asyncTest("set options to less plugin", function(){
+		makeIframe("less_options/site.html");
+	});
+
 })();
